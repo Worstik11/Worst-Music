@@ -5,11 +5,11 @@ const { queueNames } = require("./commands/play");
 function initializePlayer(client) {
     const nodes = [
       {
-    host : "37.114.42.191",
-    port : 6767,
-    password : "danteisnttaken",
-    secure : false
-  },
+            host: "lava-v4.ajieblogs.eu.org",
+            password: "https://dsc.gg/ajidevserver",
+            port: 443,
+            secure: true
+        },
     ];
 
     client.riffy = new Riffy(client, nodes, {
